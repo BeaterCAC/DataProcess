@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from DataProcess_2025.OutlierProcess import detect_outliers
+from DataProcess_2025.source.OutlierProcess import detect_outliers
 from ipywidgets import (interact, Dropdown, SelectMultiple,
                         RadioButtons, IntSlider, FloatRangeSlider,
                         VBox, HBox, widgets, Button, Output, FloatText)

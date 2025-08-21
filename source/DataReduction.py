@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import ipywidgets as widgets
 from IPython.display import display, clear_output, HTML
-from DataProcess_2025.Visualization import distinguish_variable_types
+from DataProcess_2025.source.Visualization import distinguish_variable_types
 from factor_analyzer import FactorAnalyzer
 from factor_analyzer.factor_analyzer import calculate_kmo, calculate_bartlett_sphericity
 
